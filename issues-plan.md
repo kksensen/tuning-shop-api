@@ -11,9 +11,9 @@ A lightweight RESTful API to manage cars and performance parts. The focus is on 
 ### Issue 1: Initialize Spring Boot project and configure dependencies
 - **Description:** Generate the initial project structure and organize the tooling.
 - **Acceptance Criteria:**
-  - [ ] Project generated via Spring Initializr.
-  - [ ] Dependencies added to `pom.xml`: Spring Web, Spring Data JPA, MySQL Driver.
-  - [ ] Application compiles and the `main` method runs without errors.
+  - [x] Project generated via Spring Initializr.
+  - [x] Dependencies added to `pom.xml`: Spring Web, Spring Data JPA, MySQL Driver.
+  - [x] Application compiles and the `main` method runs without errors.
 
 ### Issue 2: Configure MySQL Connection
 - **Description:** Define the connection properties for the local database.
