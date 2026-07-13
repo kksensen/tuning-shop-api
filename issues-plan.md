@@ -45,9 +45,9 @@ A lightweight RESTful API to manage cars and performance parts. The focus is on 
 ### Issue 5: Configure `Car` Entity
 - **Description:** Map the car class, representing its factory state.
 - **Acceptance Criteria:**
-  - [ ] Class annotated with `@Entity`.
-  - [ ] Attributes defined: `id` (PK, Auto-generated), `brand`, `model`, `baseHorsepower`.
-  - [ ] Constructors, Getters, and Setters generated.
+  - [x] Class annotated with `@Entity`.
+  - [x] Attributes defined: `id` (PK, Auto-generated), `brand`, `model`, `baseHorsepower`.
+  - [x] Constructors, Getters, and Setters generated.
 
 ### Issue 6: Establish N:M Relationship between `Car` and `Part`
 - **Description:** Map the database rule where one car can receive multiple parts, and the same part (from the catalog) can be installed in multiple cars.
