@@ -52,9 +52,9 @@ A lightweight RESTful API to manage cars and performance parts. The focus is on 
 ### Issue 6: Establish N:M Relationship between `Car` and `Part`
 - **Description:** Map the database rule where one car can receive multiple parts, and the same part (from the catalog) can be installed in multiple cars.
 - **Acceptance Criteria:**
-  - [ ] Add a `List<Part>` inside the `Car` entity.
-  - [ ] Annotate the list with `@ManyToMany`.
-  - [ ] Use `@JoinTable` to create a clean junction table (e.g., `car_parts`) defining foreign keys.
+  - [x] Add a `List<Part>` inside the `Car` entity.
+  - [x] Annotate the list with `@ManyToMany`.
+  - [x] Use `@JoinTable` to create a clean junction table (e.g., `car_parts`) defining foreign keys.
 
 ### Issue 7: Create Spring Data JPA Repositories
 - **Description:** Provide the standard integrated CRUD methods for our entities.
